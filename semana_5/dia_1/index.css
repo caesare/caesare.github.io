@@ -31,10 +31,37 @@ inline-block
 
 */
 
+img,src {
+width: 272px;    
+margin-block-start: 200px;
+margin-left: 460px;
+}
 
 
-div {
+#boxmicro {
+    border: none;
+    width: 500px;
+    height: 40px;
+    margin-top: 60px;
+    margin-block-start: 20px; 
+    margin-left: 350px;
+    display: inline-block;
+    box-shadow:   0px 1px 4px rgba(0,0,0,.2);
+    
+}
+
+.micro {
+    width: 25px;
+    vertical-align: right;
+    margin: 0px;
+}
+div, ck {
+    
+    margin-top: 60pxs;
+    margin-left: 450px;
     background-color: white;
+    box-shadow: 50px;
+    
     
 
 }
