@@ -1,0 +1,46 @@
+/*
+Displays simples
+
+display: block|inline|inline-block;
+
+block
+    - Respetan margins, paddings, width y height
+      en los 4 lados
+    - Forzan un salto de linea despues del elemento
+    - Si no se especifica width toman el 100% de su
+      contenedor
+
+    Elementos que tienen block por default:
+        div  p  h1-h6  li  pre  header  footer  ...
+
+inline
+    - Respetan margins y paddings solo a 
+      la izquierda y derecha *
+    - width y height son ignorados
+    - Permite otros elementos en la misma linea
+    - se puede alargar el alto con line-height
+
+    Elementos que tienen inline por default:
+        span  a   img  input  button iframe  ...
+
+
+inline-block
+    - Respeta margins, paddings, width y height
+      en los 4 lados
+    - Permite otros elementos en la misma linea
+
+*/
+
+
+
+div {
+    background-color: white;
+    
+
+}
+
+span {
+    block-size: 0px;
+    background: lime;
+    align-self: auto;
+}

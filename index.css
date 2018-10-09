@@ -1,0 +1,48 @@
+body, input {
+    
+    font-family:'Lobster', cursive;
+    color: rgb(236, 20, 20);
+    font-size: 50px;
+    border-style: solid;
+    border-width: 50px;
+    text-align: center;
+}
+
+body{
+    margin: 55px;
+    background: black;
+}
+
+
+h1{
+    margin: 50pz;
+    margin-bottom: 40px;
+
+}
+
+input, button {
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    outline-color:red;
+
+    border-color: grey;
+    border-width: 10px;
+    border-style: solid;
+
+    outline-color: red;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    margin-bottom: 10pxz;
+
+
+
+}
+
+img, src { 
+size: 1000px;
+}

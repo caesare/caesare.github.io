@@ -1,0 +1,66 @@
+
+  /* top | horizontal | bottom */
+
+  
+
+
+
+
+body, input {
+    box-sizing: border-box;
+    background-color: rgb(220, 232, 248);
+    font-family:'Encode Sans Expanded', sans-serif;
+    color: grey;
+    font-size: 20px;
+    border-width: 50px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+  }
+  
+  body{
+    margin: 100px;
+    background: white;
+
+  }
+
+  
+  div {
+
+       
+      width: 500px;
+      margin: auto;
+      border-bottom: 10px;
+      background: whitesmoke;
+     
+  }
+  
+  
+  input, button {
+    
+    margin: 5px 0;
+    font-size: 20px;
+    border-color: gray ;
+    border-width: 2px;
+    border-style: solid;
+    color: grey;
+    outline-color: whitesmoke;
+    display: center;
+    list-style: none;
+  }
+  
+  button {
+    width: 200px;
+    display:  block ;
+    margin: 5px auto;
+    
+    
+
+  }
+
+  ul{
+      list-style: none; 
+      padding: 0;
+
+  }
+
+  

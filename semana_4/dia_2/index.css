@@ -1,0 +1,23 @@
+body {
+    margin: 100px 50px 25px;
+    background: rgba(5, 46, 59, 0.808);
+    
+}
+
+input {
+    display:block; 
+    margin-bottom: 15px; 
+    padding: 10px;
+    text-align: center;
+    font-family: 'play';
+    font-size: 1.5em; 
+}
+
+input.tipo2 {
+text-align: center;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 5px 25px
+}
