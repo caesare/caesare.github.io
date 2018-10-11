@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.logo {
+    width: 272px;
+    display: block;
+    margin: 198px auto 25px;
+}
+
+.buscador {
+    border: 1px solid #DDD;
+    width: 590px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15)
+}
+
+.buscador input {
+    background: none;
+    border: none;
+    font-size: 1.05em;
+    padding: 5px 10px;
+    width: 537px;
+    vertical-align: middle;
+    outline: none;
+    line-height: 1.5em;
+}
+
+.buscador img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.botones {
+    text-align: center;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    background: #EEE;
+    color: #666;
+}
