@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+   }
+
+
+.disco{
+    display: flex;
+    flex-direction: column;  
+    height: 300px; 
+    margin-bottom: 0px;
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 200px;
+    font-size: 100px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+
+
+.botones{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right:20px;
+    margin-left:10px;
+    justify-content: center;
+   
+    
+}
+
+.item {
+    font-family: 'Abril Fatface';
+font-size: 50px;    
+margin-left: 25px; 
+width: 300px;
+height:70px;
+outline-color: silver; 
+outline-width: 40px;
+}
+
+
+
+.JAZZ{
+    background-color: black;  
+    color: white; 
+    
+
+}
+
+.BLUES{
+    background-color: black;    
+    color: white; 
+}
+
+.ROCK{
+    background-color: black;    
+    color: white; 
+}
+
+.seleccion{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px; 
+    text-align: center; 
+   
+    
+}
+
+.jugador1{
+    background-color: whitesmoke ;
+    height: 50px;
+    width: 350px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Kaushan';
+    outline-color: black;
+}
+
+.VS{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60px;
+    font: red;
+    margin-top: 5px;
+    outline: none;
+    
+}
+
+.compu{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.cpu{
+    background-color:whitesmoke;
+    height: 50px;
+    width: 350px;
+    outline-color: black;
+    font-size: 40px;
+    font-family: 'Kaushan';
+}
+
+.ganador{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center; 
+     
+}
+
+
+.resultado{
+    background-color:whitesmoke;
+    height: 50px;
+    width: 350px;
+    outline-color: black;
+    font-size: 40px;
+    font-family: 'Kaushan';
+    color: brown;
+}
+.instructions{
+    text-align: center;
+   margin-top: 30px;
+}
+
+
+
+
+@media all and (max-width:375px) {
+  .titulo{
+      color:red;
+  }  
+}

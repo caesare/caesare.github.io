@@ -1,0 +1,47 @@
+body{
+    background: rgb(73, 73, 73);
+    align-content: center;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.inicio{
+    display:flex;
+    flex:block;
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    background: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color:whitesmoke;
+}
+
+
+.cerrar{
+    display:flex;
+    flex:block;
+    width: 200px;
+    height: 50px;
+    background: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color:whitesmoke;
+}
+.contador{
+    margin-top: 10px;
+    width: 100px;
+    height: 20px;
+    border: round;
+    border-width: 5px;
+    background: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: black; 
+}
+
+
+
